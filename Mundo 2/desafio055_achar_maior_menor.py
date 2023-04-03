@@ -1,7 +1,7 @@
-maior = float(input('Digite o seu peso em Kg: '))
+maior = float(input('Digite o peso da 1ª pessoa em Kg: '))
 menor = maior
-for c in range(4):
-    peso = float(input('Digite o seu peso em Kg: '))
+for c in range(1,5):
+    peso = float(input(f'Digite o peso da {c +1}ª pessoa em Kg: '))
     if peso > maior:
         maior = peso
     if peso < menor:
