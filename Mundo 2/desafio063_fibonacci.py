@@ -1,4 +1,4 @@
-n = int(input('Quantos termos da sequencia de fibonacci, quer mostrar? Ou digite "0" para sair: '))
+n = int(input('Quantos termos da sequencia de Fibonacci, quer mostrar? Ou digite "0" para sair: '))
 t1 = 0
 t2 = 1
 opcao = n
