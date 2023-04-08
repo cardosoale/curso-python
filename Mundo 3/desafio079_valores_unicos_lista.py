@@ -1,9 +1,12 @@
-continuar = 'S'
 lista = []
 while True:
-    if continuar in 'Ss':
-        lista.append(int(input('Digite um valor: ')))
-        continuar = str(input('Quer continuar? Digite "S" para continuar ou outro qualquer caractere para SAIR: ')).upper().strip()[0]
+    valor = int(input('Digite um valor: '))
+    if valor not in lista:
+        lista.append(valor)
+        print('Valor add com sucesso!)
     else:
+        print('Valor duplicado, tente outro: ')
+    r = str(input('Quer continuar? [S/N]: ')
+    if r in 'Nn':
         break
 print(lista)
